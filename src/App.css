@@ -37,3 +37,7 @@
 li {
   margin-top: 10px;
 }
+
+li:hover {
+  font-weight: bold;
+}
