@@ -8,7 +8,7 @@ class Film extends Component {
     render() {
         return (
             <li className="film">
-                <a target="_blank "href={'this.props.url'}>{this.props.name}</a>
+                <a target="_blank " href={this.props.url}>{this.props.name}</a>
             </li>
         );
     }
