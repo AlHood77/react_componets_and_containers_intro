@@ -6,8 +6,9 @@ export default class Footer extends Component {
       <div className="film-footer">
         
         <a
-          target="_blank"
-          href="https://www.imdb.com/calendar/?region=gb"
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://www.imdb.com/calendar/?region=gb"
         >
                 View more upcomming releases >>
          </a>
